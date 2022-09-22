@@ -219,7 +219,7 @@ jobs:
         
     - name: "Install system dependencies"
       run: |
-        brew install llvm@14 ninja nasm molten-vk vulkan-headers
+        brew install llvm@14 ninja nasm molten-vk vulkan-headers sdl2
     - name: "Bootstrap vcpkg"
       run: |
         bash ./dependencies/vcpkg/bootstrap-vcpkg.sh
